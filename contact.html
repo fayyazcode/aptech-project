@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#"><img src="12.png" alt="" height="30%" width="30%"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="products.html">Products <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Brands
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="fisher.html">Fisher-Price</a>
+            <a class="dropdown-item" href="mattel.html">Mattle</a>
+            <a class="dropdown-item" href="barbie.html">Barbie</a>
+            <a class="dropdown-item" href="Lego.html">Lego</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact Us <span class="sr-only"></span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+      
+    <section>
+       
+        <script>
+     $(document).ready(function(){ 
+         
+            $('.help1').hide();
+            $('.help2').hide();
+           $('.help3').hide();
+         
+         $('.show1').click(function(){
+             $('.help1').show();
+             $('.help2').hide();
+             $('.help3').hide();
+         });
+         
+          $('.show2').click(function(){
+             $('.help2').show();
+               $('.help1').hide();
+              $('.help3').hide();
+         });
+         
+          $('.show3').click(function(){
+             $('.help3').show();
+             $('.help1').hide();
+             $('.help2').hide();
+         });
+         
+         
+     });
+     </script>
+      
+        
+     <div class="help">
+      <br>
+      <p class="title"> Get Help </p> 
+      <p class="para"> Choose an option below or contact our customer service team to help you out. </p>
+      <img src="i8.png" class="ill" width="54%;" >
+      
+     
+     <button class="show1"> TRACK ORDER  </button>
+     <button class="show2"> CONTACT US  </button>
+     <button class="show3"> SUBSCRIBE  </button>
+     </div>   
+     
+     
+     <div class="help1"> <p class="t1"> Track Order </p> 
+     
+     <img src="track.png" class="track" width="10%;">
+     <p class="p1"> Enter your name and order number to track your order's current status. </p>
+      <form class="form">
+         <input type="text" class="form1" name="username"  required="true" placeholder="NAME"> 
+         <p class="line"> <img src="line2.png" width="48%;"> </p>
+         <input type="text" class="form2"  name="username" required="true" placeholder="ORDER NUMBER">
+         <button class="b1" type="submit"> TRACK  </button> 
+        </form>
+     
+     
+     </div>
+     
+     <div class="help2"> <p class="t2"> Contact Us </p>
+     
+     <img src="contact.png" class="contact" width="10%;">
+     <p class="p2"> Leave us a message and your email address. We'll get back to you in no time. </p>
+      <form class="forma">
+     <input type="email" class="form1a" name="email"   placeholder="EMAIL" required>
+       <p class="line2"> <img src="line2.png" width="48%;"> </p>
+         <input type="text" class="form2a" name="username"  row="8" placeholder="MESSAGE"> 
+         <button  type="submit" class="b2" > SUBMIT </button>
+        </form>
+     
+     
+       </div>
+       
+     <div class="help3"> <p class="t3"> Subscribe </p>
+     <img src="news.png" class="news" width="10%;">
+     <p class="p3"> Sign up for our weekly newsletter and recieve free catalogues and special offers. </p>
+      <form class="formb">
+         <input type="email" class="form1b" name="email"   placeholder="EMAIL" required> 
+         <button type="submit" class="b3" > DONE  </button>
+ 
+        </form>
+            
+       </div>
+    
+  
+    
+        
+     </section>
+     
+</body>
+</html>

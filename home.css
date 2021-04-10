@@ -1,0 +1,100 @@
+
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "lato , sans-serif";
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+.pimg1, .pimg2, .pimg3,.pimg4{
+
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed ;
+}
+.pimg1{
+background-image: url(home/BARBIE.jpg);
+min-height: 80%;
+}
+.pimg2{
+	background-image: url(home/fisher\ price.jpg);
+	min-height: 80%;
+	}
+.pimg3{
+		background-image: url(home/lego.jpg);
+		min-height: 80%;
+		}
+		.pimg4{
+			background-image: url(home/mattle.jpg);
+			min-height: 80%;
+			}
+.section{
+	text-align: center;
+	padding: 100px 80px;
+}
+.sectionlight{
+	background-color: #e5e8ec;
+	color: rgb(0, 0, 0);
+}					
+.sectiondark{
+	background-color: #353b41;
+	color: rgb(214, 212, 212);
+}					
+.sectionlast{
+	background-color: #131516;
+	color: #ddd;
+}					
+.ptext{
+	position: absolute;
+	top: 42%;
+	width: 100%;
+	text-align: center;
+	color: #000000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	padding-top: 50px;
+    
+}
+.ptext .border{
+	background-color: #111111;
+	color: #ffffff;
+	padding: 20px;
+	border-radius: 4px;
+}
+.ptext .new{
+	background-color: #ffffff;
+	color: #000000;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+.ptext .border:hover{
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+
+}
+
+
+
+footer{
+	text-align: center;
+	background-color: #666;
+	color: #fff;
+	
+	
+}
+footer .footer{
+	text-decoration-style: none;
+	color: #fff;
+	
+	
+}
+.footer:hover{
+	color:black;
+}
